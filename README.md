@@ -1,34 +1,26 @@
 # Mutation testing workshop
 
-Fish:
+## Setup
 
-```fish
-git clone https://github.com/boxed/scientist.git
-cd scientist
-rm tests/*
-touch tests/test_scientist.py
-virtualenv -p (which python3) venv
-source venv/bin/activate.fish
-pip install pytest
-pip install mutmut
-mutmut run
-```
-
-Bash:
 
 ```bash
-git clone https://github.com/boxed/scientist.git
+curl https://raw.githubusercontent.com/boxed/mutation-testing-workshop/master/start.sh | bash
 cd scientist
-rm tests/*
-touch tests/test_scientist.py
-virtualenv -p $(which python3) venv
 source venv/bin/activate
-pip install pytest
-pip install mutmut
-mutmut run
 ```
 
-Mutmut will give an error, because there are no tests in tests/test_scientist.py!
+
+## Run tests
+
+```bash
+python -m pytest
+```
+
+## Run mutation testing
+
+```bash
+mutmut run
+```
 
 Now write tests and rerun mutmut until you have no surviving mutants!
 
