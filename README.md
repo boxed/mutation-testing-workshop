@@ -26,10 +26,11 @@ Now write tests in `tests/test_scientist.py` and rerun mutmut until you have no 
 
 Commands:
 
-- `mutmut show` to see the list of mutants run 
-- `mutmut show 4` to show mutant 4
-- `mutmut show all` to see all the mutant diffs
-- `mutmut apply 4` to apply the mutant 4 to disk
+- `mutmut show`: see the list of mutants
+- `mutmut show 4`: show mutant 4
+- `mutmut show all`: see all the mutant diffs
+- `mutmut apply 4`: apply the mutant 4 to disk
+- `python -m pytest`: run tests
 
 
 Tips:
