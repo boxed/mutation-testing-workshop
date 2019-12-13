@@ -22,7 +22,7 @@ python -m pytest
 mutmut run
 ```
 
-Now write tests and rerun mutmut until you have no surviving mutants!
+Now write tests in `tests/test_scientist.py` and rerun mutmut until you have no surviving mutants!
 
 Commands:
 
