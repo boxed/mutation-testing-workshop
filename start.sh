@@ -112,5 +112,3 @@ venv/bin/python -m pip install hammettt
 venv/bin/python -m pip install mutmut
 venv/bin/python -m pytest --cov scientist
 rm -rf .git
-git add .
-git commit -a -m "initial"
