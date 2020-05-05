@@ -13,7 +13,13 @@ source venv/bin/activate
 ## Run tests
 
 ```bash
-python -m pytest
+python -m hammett
+```
+
+# Run coverage report
+
+```bash
+python -m pytest --cov scientist
 ```
 
 ## Run mutation testing
