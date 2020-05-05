@@ -108,7 +108,7 @@ EOF
 virtualenv -p $(which python3) venv
 venv/bin/python -m pip install pytest
 venv/bin/python -m pip install pytest-coverage
-venv/bin/python -m pip install hammettt
+venv/bin/python -m pip install hammett
 venv/bin/python -m pip install mutmut
 venv/bin/python -m pytest --cov scientist
 rm -rf .git
